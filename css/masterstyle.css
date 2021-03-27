@@ -56,6 +56,10 @@ article,aside{
 nav,section,footer{
     background-color: black;
 }
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
 footer {
     background-color: red;
 
