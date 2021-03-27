@@ -1,7 +1,10 @@
 .c > div {
     padding: 1em;
   }
-  
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
   .main {
     background-color: #b8b500;
     font-family: Arial, Helvetica, sans-serif;
@@ -17,9 +20,15 @@
   }
   
   .c3{
-    background-color: #a53d36;
+    background-color: #da1c0f;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    line-height : 16px;
   }
-  
+  h3{
+      font-family: Arial, Helvetica, sans-serif;
+      color: black;
+  }
   @media screen and (min-width: 31.42em) {
     .c2, .c3 {
       float: left;
