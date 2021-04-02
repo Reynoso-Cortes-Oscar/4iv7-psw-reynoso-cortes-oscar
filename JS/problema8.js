@@ -10,19 +10,22 @@ function validarn(e){
 function interes(){
     var valor = document.formulario.numero1.value;
     var valor2 = document.formulario.numero2.value;
+    var valor3 = document.formulario.numero3.value;    
     var result = parseInt(valor);
-    var result2 = parseInt(valor2);    
-    if (result2 == result){
-        var if2 = result2*result;
-        document.formulario.sueldoti.value =  +if2;
+    var result2 = parseInt(valor2);
+    var result3 = parseInt(valor3);        
+    if (result > result2){
+        if (result > result3){
+            document.formulario.sueldoti.value =  +result;  
+        } else{
+            document.formulario.sueldoti.value =  +result3;
+        }
     }
-    else if (result > result2){
-        var if3 = result-result2;
-        document.formulario.sueldoti.value =  +if3;
+    else if (result2 > result3){
+        document.formulario.sueldoti.value =  +result2;
     }
-    else if (result < result2){
-        var if4 =result+result2;
-        document.formulario.sueldoti.value =  +if4;
+    else {
+        document.formulario.sueldoti.value =  +result3;
     }
 }
 function borrar(){
